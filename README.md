@@ -67,8 +67,7 @@ SmartSort/
 
 Step 1 — Clone the repository
 
-git clone https://github.com/YOUR-USERNAME/SmartSort.git
-
+git clone https://github.com/anushreerao27/SmartSort.git
 cd SmartSort
 
 
@@ -76,7 +75,8 @@ Step 2 — Create a virtual environment
 
 python -m venv venv
 
-venv\\Scripts\\activate   # For Windows
+venv\Scripts\activate      # Windows
+source venv/bin/activate   # Mac/Linux
 
 
 Step 3 — Install dependencies
@@ -92,6 +92,7 @@ python app.py
 Access the app in your browser:
 
 http://127.0.0.1:7860
+(Note: This link only works when the app is running locally.)
 
 
 **6. Waste Categories \& Disposal Guidelines**
@@ -133,5 +134,6 @@ See the LICENSE file for details.
 Developed by Anushree Rao
 
 If you found this project useful, please consider giving it a ⭐ on GitHub.
+
 
 
