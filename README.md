@@ -1,15 +1,12 @@
 # SmartSort – Smart Waste Classification System
 
 
-
 SmartSort is an AI-powered waste classification system that identifies waste items into four categories: **Dry, Wet, E-waste, and Manual**.
 
 It uses a MobileNetV2 deep learning model and a custom-designed Gradio interface to provide real-time predictions and disposal guidance.
 
 
-
 **1. Overview**
-
 
 
 Improper waste segregation is one of the biggest challenges in sustainable waste management.
@@ -17,16 +14,12 @@ Improper waste segregation is one of the biggest challenges in sustainable waste
 SmartSort helps solve this by providing:
 
 
-
 * Automated waste classification
 * Fast, lightweight inference using MobileNetV2
 * Clean and responsive UI
 * Clear disposal instructions for each category
 
-
-
 **2. Features**
-
 
 
 * Real-time waste classification
@@ -37,31 +30,17 @@ SmartSort helps solve this by providing:
 * CPU-friendly model
 
 
-
-**3. Demo Screenshots**
-
+## **3. Demo Screenshots**
 
 
-SmartSort Interface
+### SmartSort Interface
+![SmartSort UI](assets/ui.jpeg)
 
-
-
-!\[SmartSort UI](assets/ui.jpeg)
-
-
-
-Sample Prediction Output
-
-
-
-!\[SmartSort Prediction](assets/result.jpeg)
-
-
-
+### Sample Prediction Output
+![SmartSort Prediction](assets/result.jpeg)
 
 
 **4. Project Structure**
-
 
 
 SmartSort/
@@ -83,9 +62,7 @@ SmartSort/
 │── assets/                # UI and prediction screenshots
 
 
-
 **5. Installation \& Usage**
-
 
 
 Step 1 — Clone the repository
@@ -95,7 +72,6 @@ git clone https://github.com/YOUR-USERNAME/SmartSort.git
 cd SmartSort
 
 
-
 Step 2 — Create a virtual environment
 
 python -m venv venv
@@ -103,11 +79,9 @@ python -m venv venv
 venv\\Scripts\\activate   # For Windows
 
 
-
 Step 3 — Install dependencies
 
 pip install -r requirements.txt
-
 
 
 Step 4 — Run the application
@@ -115,19 +89,12 @@ Step 4 — Run the application
 python app.py
 
 
-
-
-
 Access the app in your browser:
-
-
 
 http://127.0.0.1:7860
 
 
-
 **6. Waste Categories \& Disposal Guidelines**
-
 
 
 Category	Examples	Disposal Method
@@ -141,9 +108,7 @@ E-waste	Electronics, wires, batteries	Authorized E-waste center
 Manual	Mixed or unclassifiable waste	Manual inspection
 
 
-
 **7. Technologies Used**
-
 
 
 * Python
@@ -154,9 +119,7 @@ Manual	Mixed or unclassifiable waste	Manual inspection
 * Pillow
 
 
-
 **8. License**
-
 
 
 This project is licensed under the MIT License.
@@ -164,12 +127,11 @@ This project is licensed under the MIT License.
 See the LICENSE file for details.
 
 
-
 **9. Author**
-
 
 
 Developed by Anushree Rao
 
 If you found this project useful, please consider giving it a ⭐ on GitHub.
+
 
